@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;	
+	font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+	padding: 10px 15px;
+	display: flex;
+	justify-content: flex-start;
+	background-color: #9a9a9a;
+}
+
+.footer-notes {	
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer-notes a {
+	color: #ffb46e;
+	text-decoration: none;
+}
+
+.footer-notes a:visited {
+	color: #ffb46e;
+	text-decoration: none;
+}
+
+.footer__link {
+	display: inline-block;
+}
+
+@media (max-width: 767px) {
+	.footer {
+		justify-content: center;
+	}
+
+	.footer-notes {	
+		font-size: 12px;
+	}
+}
